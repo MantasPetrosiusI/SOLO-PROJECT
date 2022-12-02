@@ -656,7 +656,7 @@ number = 12;
 console.log("\n",removeIndex(number, movies))
 function removeIndex(number, movies){
     let plsRemove = movies.splice(number, 1);
-    return movies;
+    return plsRemove;
 }
 
 // [EXTRAS] JS Advanced
@@ -677,6 +677,20 @@ halfTree(3)
 
 */
 
+let height = 3;
+console.log("\nI could only afford half a tree :(\n");
+halfTree(height)
+function halfTree(height){
+    let treeStuff = "";
+    for( let i = 0; i < height; i++){
+        for(let j = 0; j <i; j++){
+            treeStuff +=  '*';
+            console.log(treeStuff)
+        }    
+    }
+    console.log('*');
+}
+
 /* EXERCISE 22
 
 Create a function called "tree" which receives a number as a parameter and builds an "*" tree with the given height.
@@ -693,11 +707,50 @@ tree(3)
 
 */
 
+height = 3;
+console.log("I borrewed some money for other half!! :)")
+tree(height);
+function tree(height){
+    
+ for(let i = 0; i<height; i++){
+    let treeStuff = '*';
+    let waste = ' ';
+    treeStuff = treeStuff.repeat(2*i+1);
+    waste = waste.repeat(height - i - 1);
+    console.log(waste + treeStuff);
+ }
+
+}
+
+
 /* EXERCISE 23
 
 Create a function called "isItPrime" that receives a number as a parameter and returns true if the given number is a prime number.
 
 */
+
+number = 8;
+console.log("The number is "+isItPrime(number));
+
+function isItPrime(number){
+    let boolResult = false;
+    for(let i = 2; i<=10; i++ ){
+        if(i === number){
+            i++;
+        }else{
+            if(number%i===0){
+                boolResult = false;
+            }else{
+                boolResult = true;
+            }
+        }
+        if(boolResult === true){
+            return "prime!";
+        }else{
+            return "not prime!";
+        }
+    }
+}
 
 /* WHEN YOU ARE FINISHED
 
