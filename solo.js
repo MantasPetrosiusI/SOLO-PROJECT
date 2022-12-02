@@ -718,8 +718,9 @@ function tree(height){
     treeStuff = treeStuff.repeat(2*i+1);
     waste = waste.repeat(height - i - 1);
     console.log(waste + treeStuff);
- }
 
+ }
+ console.log(' '.repeat(height - 1)+'*')
 }
 
 
