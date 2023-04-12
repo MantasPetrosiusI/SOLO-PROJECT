@@ -16,9 +16,7 @@ ASSIGNMENT RULES
 
 */
 const movies = [
-
-    {
-
+  {
     Title: "The Lord of the Rings: The Fellowship of the Ring",
 
     Year: "2001",
@@ -28,13 +26,10 @@ const movies = [
     Type: "movie",
 
     Poster:
+      "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
+  },
 
-    "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
-
-    },
-
-    {
-
+  {
     Title: "The Lord of the Rings: The Return of the King",
 
     Year: "2003",
@@ -44,13 +39,10 @@ const movies = [
     Type: "movie",
 
     Poster:
+      "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+  },
 
-    "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-
-    },
-
-    {
-
+  {
     Title: "The Lord of the Rings: The Two Towers",
 
     Year: "2002",
@@ -60,13 +52,10 @@ const movies = [
     Type: "movie",
 
     Poster:
+      "https://m.media-amazon.com/images/M/MV5BNGE5MzIyNTAtNWFlMC00NDA2LWJiMjItMjc4Yjg1OWM5NzhhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+  },
 
-    "https://m.media-amazon.com/images/M/MV5BNGE5MzIyNTAtNWFlMC00NDA2LWJiMjItMjc4Yjg1OWM5NzhhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
-
-    },
-
-    {
-
+  {
     Title: "Lord of War",
 
     Year: "2005",
@@ -76,13 +65,10 @@ const movies = [
     Type: "movie",
 
     Poster:
+      "https://m.media-amazon.com/images/M/MV5BMTYzZWE3MDAtZjZkMi00MzhlLTlhZDUtNmI2Zjg3OWVlZWI0XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg",
+  },
 
-    "https://m.media-amazon.com/images/M/MV5BMTYzZWE3MDAtZjZkMi00MzhlLTlhZDUtNmI2Zjg3OWVlZWI0XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg",
-
-    },
-
-    {
-
+  {
     Title: "Lords of Dogtown",
 
     Year: "2005",
@@ -92,13 +78,10 @@ const movies = [
     Type: "movie",
 
     Poster:
+      "https://m.media-amazon.com/images/M/MV5BNDBhNGJlOTAtM2ExNi00NmEzLWFmZTQtYTZhYTRlNjJjODhmXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg",
+  },
 
-    "https://m.media-amazon.com/images/M/MV5BNDBhNGJlOTAtM2ExNi00NmEzLWFmZTQtYTZhYTRlNjJjODhmXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg",
-
-    },
-
-    {
-
+  {
     Title: "The Lord of the Rings",
 
     Year: "1978",
@@ -108,13 +91,10 @@ const movies = [
     Type: "movie",
 
     Poster:
+      "https://m.media-amazon.com/images/M/MV5BOGMyNWJhZmYtNGQxYi00Y2ZjLWJmNjktNTgzZWJjOTg4YjM3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+  },
 
-    "https://m.media-amazon.com/images/M/MV5BOGMyNWJhZmYtNGQxYi00Y2ZjLWJmNjktNTgzZWJjOTg4YjM3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
-
-    },
-
-    {
-
+  {
     Title: "Lord of the Flies",
 
     Year: "1990",
@@ -124,13 +104,10 @@ const movies = [
     Type: "movie",
 
     Poster:
+      "https://m.media-amazon.com/images/M/MV5BOTI2NTQyODk0M15BMl5BanBnXkFtZTcwNTQ3NDk0NA@@._V1_SX300.jpg",
+  },
 
-    "https://m.media-amazon.com/images/M/MV5BOTI2NTQyODk0M15BMl5BanBnXkFtZTcwNTQ3NDk0NA@@._V1_SX300.jpg",
-
-    },
-
-    {
-
+  {
     Title: "The Lords of Salem",
 
     Year: "2012",
@@ -140,13 +117,10 @@ const movies = [
     Type: "movie",
 
     Poster:
+      "https://m.media-amazon.com/images/M/MV5BMjA2NTc5Njc4MV5BMl5BanBnXkFtZTcwNTYzMTcwOQ@@._V1_SX300.jpg",
+  },
 
-    "https://m.media-amazon.com/images/M/MV5BMjA2NTc5Njc4MV5BMl5BanBnXkFtZTcwNTYzMTcwOQ@@._V1_SX300.jpg",
-
-    },
-
-    {
-
+  {
     Title: "Greystoke: The Legend of Tarzan, Lord of the Apes",
 
     Year: "1984",
@@ -156,13 +130,10 @@ const movies = [
     Type: "movie",
 
     Poster:
+      "https://m.media-amazon.com/images/M/MV5BMTM5MzcwOTg4MF5BMl5BanBnXkFtZTgwOTQwMzQxMDE@._V1_SX300.jpg",
+  },
 
-    "https://m.media-amazon.com/images/M/MV5BMTM5MzcwOTg4MF5BMl5BanBnXkFtZTgwOTQwMzQxMDE@._V1_SX300.jpg",
-
-    },
-
-    {
-
+  {
     Title: "Lord of the Flies",
 
     Year: "1963",
@@ -172,13 +143,10 @@ const movies = [
     Type: "movie",
 
     Poster:
+      "https://m.media-amazon.com/images/M/MV5BOGEwYTlhMTgtODBlNC00ZjgzLTk1ZmEtNmNkMTEwYTZiM2Y0XkEyXkFqcGdeQXVyMzU4Nzk4MDI@._V1_SX300.jpg",
+  },
 
-    "https://m.media-amazon.com/images/M/MV5BOGEwYTlhMTgtODBlNC00ZjgzLTk1ZmEtNmNkMTEwYTZiM2Y0XkEyXkFqcGdeQXVyMzU4Nzk4MDI@._V1_SX300.jpg",
-
-    },
-
-    {
-
+  {
     Title: "The Avengers",
 
     Year: "2012",
@@ -188,13 +156,10 @@ const movies = [
     Type: "movie",
 
     Poster:
+      "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
+  },
 
-    "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg",
-
-    },
-
-    {
-
+  {
     Title: "Avengers: Infinity War",
 
     Year: "2018",
@@ -204,13 +169,10 @@ const movies = [
     Type: "movie",
 
     Poster:
+      "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
+  },
 
-    "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
-
-    },
-
-    {
-
+  {
     Title: "Avengers: Age of Ultron",
 
     Year: "2015",
@@ -220,13 +182,10 @@ const movies = [
     Type: "movie",
 
     Poster:
+      "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg",
+  },
 
-    "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_SX300.jpg",
-
-    },
-
-    {
-
+  {
     Title: "Avengers: Endgame",
 
     Year: "2019",
@@ -236,12 +195,9 @@ const movies = [
     Type: "movie",
 
     Poster:
-
-    "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
-
-    },
-
-    ];
+      "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
+  },
+];
 
 // JS Basics
 
@@ -269,7 +225,7 @@ Create a variable called test and assign a string value to it.
 
 // */
 
-// let random = Math.floor(Math.random()*20);
+// let random = Math.floor(Math.random()*21);
 // console.log("\n",random);
 
 // /* EXERCISE D
@@ -465,7 +421,7 @@ Create a variable called test and assign a string value to it.
 //     return specificDate;
 // }
 // let date = new Date("11/21/2022");
-    
+
 // console.log("Number of days that passed since "+formatDate(date)+"\n"+howManyDays(date));
 
 // function howManyDays(date){
@@ -686,7 +642,7 @@ Create a variable called test and assign a string value to it.
 //         for(let j = 0; j <i; j++){
 //             treeStuff +=  '*';
 //             console.log(treeStuff)
-//         }    
+//         }
 //     }
 //     console.log('*');
 // }
@@ -711,7 +667,7 @@ Create a variable called test and assign a string value to it.
 // console.log("I borrewed some money for other half!! :)")
 // tree(height);
 // function tree(height){
-    
+
 //  for(let i = 0; i<height; i++){
 //     let treeStuff = '*';
 //     let waste = ' ';
@@ -723,7 +679,6 @@ Create a variable called test and assign a string value to it.
 //  console.log(' '.repeat(height - 1)+'*')
 // }
 
-
 // /* EXERCISE 23
 
 // Create a function called "isItPrime" that receives a number as a parameter and returns true if the given number is a prime number.
@@ -731,28 +686,27 @@ Create a variable called test and assign a string value to it.
 // */
 
 // number = 8;
-// console.log("The number is "+isItPrime(number));
+// console.log(isItPrime(3));
 
-// function isItPrime(number){
-//     let boolResult = false;
-//     for(let i = 2; i<=10; i++ ){
-//         if(i === number){
-//             i++;
-//         }else{
-//             if(number%i===0){
-//                 boolResult = false;
-//             }else{
-//                 boolResult = true;
-//             }
-//         }
-//         if(boolResult === true){
-//             return "prime!";
-//         }else{
-//             return "not prime!";
-//         }
+// function isItPrime(number) {
+//   let boolResult = true;
+//   if (number > 1) {
+//     for (let i = 2; i < number; i++) {
+//       if (number % i === 0) {
+//         boolResult = false;
+//         break;
+//       }
 //     }
+//   }
+//   if (boolResult) {
+//     return `${number} is a prime number.`;
+//   } else {
+//     return `${number} is not a prime number.`;
+//   }
 // }
-console.log(["Everything is commented out so its easier to read by uncommenting just that section! :)"])
+console.log([
+  "Everything is commented out so its easier to read by uncommenting just that section! :)",
+]);
 // /* WHEN YOU ARE FINISHED
 
 // Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework section of today’s Eduflow.
